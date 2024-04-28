@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('Inter-ExtraLight.woff2') format('woff2');
+}
+
+body {
+    margin: 0;
+    background: white;
+    cursor: none;
+    touch-action: none;
+}
+
+body.before {
+    background: black;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+#container {
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 23pt;
+}
+
+#text.before {
+    display: none;
+}
+
+#debug {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    color: white;
+    font-family: monospace;
+}
