@@ -5,6 +5,11 @@
     src: url('Inter-ExtraLight.woff2') format('woff2');
 }
 
+* {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
 body {
     margin: 0;
     background: white;
@@ -46,4 +51,6 @@ canvas {
     bottom: 30px;
     color: white;
     font-family: monospace;
+    user-select: auto;
+    -webkit-user-select: auto;
 }
